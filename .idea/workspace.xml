@@ -2,30 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67edb0c9-8070-4a5e-841b-5a3f13d96556" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_protobuf_protobuf_java_3_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_googlecode_juniversalchardet_juniversalchardet_1_0_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_twirl_api_2_12_1_3_15_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__eu_medsea_mimeutil_mime_util_2_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_lang3_3_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatra_scalatra_2_12_2_6_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatra_scalatra_common_2_12_2_6_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_25_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Parser.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/schema-converters-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/model/DataModel.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/util/PrintProtoSchema.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/util/XSDParser.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/util/package.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/attachment.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/bolitem.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/bomitem.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/contract_type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/generic_order_type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/header_type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/item_header_type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/item_type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/lotte_workorder1_0_submit_1_0_type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/lotte_workorder1_1_submit_2_3_type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/lotte_workorder1_2_submit_1_0_type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/lotte_workorder1_3_submit_1_0_type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/lotte_workorder1_4_submit_1_0_type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/other_reference.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/party.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/party_id.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/partyinfo.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/product.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/productspecification.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/remark.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/requiredengineer.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/requiredengineers.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/responsebody_type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/resultstatus.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proto/submitgenericproductorderresponse.proto" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -83,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -113,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/util/PrintProtoSchema.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-42">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
                 <element signature="e#14#48#0" expanded="true" />
               </folding>
@@ -125,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -202,7 +205,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537441201418" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537441457911" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -293,24 +296,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24749643" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24749643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.6626506" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.3" />
       <window_info anchor="bottom" id="SBT Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23734939" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23734939" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -350,7 +352,7 @@
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -381,7 +383,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/util/PrintProtoSchema.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-42">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
             <element signature="e#14#48#0" expanded="true" />
           </folding>
@@ -391,7 +393,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
