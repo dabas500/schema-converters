@@ -1,0 +1,9 @@
+syntax = "proto3";
+package com.kpn.dsh.iuc.messages.proto3;
+option java_package = "com.kpn.dsh.iuc.messages.proto3";
+ 
+ 
+message party_id { 
+ string type = 1 ;
+ string id = 2 ;
+}

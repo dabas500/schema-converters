@@ -1,0 +1,10 @@
+syntax = "proto3";
+package com.kpn.dsh.iuc.messages.proto3;
+option java_package = "com.kpn.dsh.iuc.messages.proto3";
+ 
+ 
+message bolitem { 
+ string bolcode = 1 ;
+ string boldescription = 2 ;
+ int32 bolquantity = 3 ;
+}

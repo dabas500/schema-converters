@@ -1,0 +1,9 @@
+syntax = "proto3";
+package com.kpn.dsh.iuc.messages.proto3;
+option java_package = "com.kpn.dsh.iuc.messages.proto3";
+ 
+ 
+message contract_type { 
+ string contract_number = 1 ;
+ string contract_version = 2 ;
+}

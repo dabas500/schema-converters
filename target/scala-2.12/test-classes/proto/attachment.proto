@@ -1,0 +1,11 @@
+syntax = "proto3";
+package com.kpn.dsh.iuc.messages.proto3;
+option java_package = "com.kpn.dsh.iuc.messages.proto3";
+ 
+ 
+message attachment { 
+oneof attachment { 
+ string name = 1 ;
+ string size = 2 ;
+}
+}

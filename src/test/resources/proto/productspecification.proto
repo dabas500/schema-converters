@@ -1,0 +1,19 @@
+syntax = "proto3";
+package com.kpn.dsh.iuc.messages.proto3;
+option java_package = "com.kpn.dsh.iuc.messages.proto3";
+ 
+import "lotte_workorder1_0_submit_1_0_type.proto";
+import "lotte_workorder1_1_submit_2_3_type.proto";
+import "lotte_workorder1_2_submit_1_0_type.proto";
+import "lotte_workorder1_3_submit_1_0_type.proto";
+import "lotte_workorder1_4_submit_1_0_type.proto";
+ 
+message productspecification { 
+oneof productspecification { 
+ lotte_workorder1_0_submit_1_0_type lotte_workorder1_0_submit_1_0_type = 1 ;
+ lotte_workorder1_1_submit_2_3_type lotte_workorder1_1_submit_2_3_type = 2 ;
+ lotte_workorder1_2_submit_1_0_type lotte_workorder1_2_submit_1_0_type = 3 ;
+ lotte_workorder1_3_submit_1_0_type lotte_workorder1_3_submit_1_0_type = 4 ;
+ lotte_workorder1_4_submit_1_0_type lotte_workorder1_4_submit_1_0_type = 5 ;
+}
+}

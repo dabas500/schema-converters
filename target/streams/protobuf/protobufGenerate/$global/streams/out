@@ -1,0 +1,15 @@
+[0m[[0m[0minfo[0m] [0m[0mCompiling 12 protobuf files to /Users/naveen/Desktop/GIT/dsh/Parser/target/protobuf_generated[0m
+[0m[[0m[0mdebug[0m] [0m[0mprotoc options:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	--java_out=/Users/naveen/Desktop/GIT/dsh/Parser/target/protobuf_generated[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /Users/naveen/Desktop/GIT/dsh/Parser/src/test/resources/proto/lotte_workorder1_2_submit_1_0_type.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /Users/naveen/Desktop/GIT/dsh/Parser/src/test/resources/proto/lotte_workorder1_1_submit_2_3_type.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /Users/naveen/Desktop/GIT/dsh/Parser/src/test/resources/proto/responsebody_type.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /Users/naveen/Desktop/GIT/dsh/Parser/src/test/resources/proto/lotte_workorder1_4_submit_1_0_type.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /Users/naveen/Desktop/GIT/dsh/Parser/src/test/resources/proto/generic_order_type.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /Users/naveen/Desktop/GIT/dsh/Parser/src/test/resources/proto/lotte_workorder1_3_submit_1_0_type.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /Users/naveen/Desktop/GIT/dsh/Parser/src/test/resources/proto/lotte_workorder1_0_submit_1_0_type.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /Users/naveen/Desktop/GIT/dsh/Parser/src/test/resources/proto/contract_type.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /Users/naveen/Desktop/GIT/dsh/Parser/src/test/resources/proto/header_type.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /Users/naveen/Desktop/GIT/dsh/Parser/src/test/resources/proto/item_type.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /Users/naveen/Desktop/GIT/dsh/Parser/src/test/resources/proto/item_header_type.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /Users/naveen/Desktop/GIT/dsh/Parser/src/test/resources/proto/party.proto[0m

@@ -1,0 +1,22 @@
+syntax = "proto3";
+package com.kpn.dsh.iuc.messages.proto3;
+option java_package = "com.kpn.dsh.iuc.messages.proto3";
+ 
+import "party_id.proto";
+import "other_reference.proto";
+import "contract_type.proto";
+ 
+message header_type { 
+ string order_id = 1 ;
+ string customer_order_trace_id = 2 ;
+ string customer_order_reference = 3 ;
+ string order_type = 4 ;
+ bytes order_priority = 5 ;
+ string creation_date_time = 6 ;
+ string due_date_time = 7 ;
+ string requester_id = 8 ;
+ string customer_id = 9 ;
+repeated party_id party_id = 10 ;
+repeated other_reference other_reference = 11 ;
+ contract_type contract = 12 ;
+}

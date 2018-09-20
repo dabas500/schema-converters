@@ -1,0 +1,11 @@
+syntax = "proto3";
+package com.kpn.dsh.iuc.messages.proto3;
+option java_package = "com.kpn.dsh.iuc.messages.proto3";
+ 
+import "resultstatus.proto";
+import "responsebody_type.proto";
+ 
+message submitgenericproductorderresponse { 
+ resultstatus body = 1 ;
+ responsebody_type result_status = 2 ;
+}

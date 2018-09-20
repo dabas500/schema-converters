@@ -1,0 +1,12 @@
+syntax = "proto3";
+package com.kpn.dsh.iuc.messages.proto3;
+option java_package = "com.kpn.dsh.iuc.messages.proto3";
+ 
+import "remark.proto";
+ 
+message item_header_type { 
+ int32 order_item_number = 1 ;
+ string order_item_id = 2 ;
+ string due_date_time = 3 ;
+repeated remark remark = 4 ;
+}

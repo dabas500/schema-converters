@@ -1,0 +1,13 @@
+syntax = "proto3";
+package com.kpn.dsh.iuc.messages.proto3;
+option java_package = "com.kpn.dsh.iuc.messages.proto3";
+ 
+import "party.proto";
+ 
+message partyinfo { 
+ party from = 1 ;
+ party to = 2 ;
+ string operationid = 3 ;
+ string operationtype = 4 ;
+ string transactionid = 5 ;
+}

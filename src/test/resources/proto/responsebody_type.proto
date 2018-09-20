@@ -1,0 +1,13 @@
+syntax = "proto3";
+package com.kpn.dsh.iuc.messages.proto3;
+option java_package = "com.kpn.dsh.iuc.messages.proto3";
+ 
+ 
+message responsebody_type { 
+ int32 status_code = 1 ;
+ string error_code = 2 ;
+ string error_description = 3 ;
+ string error_params = 4 ;
+ string application_error_code = 5 ;
+ string application_error_description = 6 ;
+}

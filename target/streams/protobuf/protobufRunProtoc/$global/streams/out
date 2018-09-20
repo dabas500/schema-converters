@@ -1,0 +1,8 @@
+[0m[[0m[31merror[0m] [0m[0mheader_type.proto:18:8: "TYPE" is already defined in "com.kpn.dsh.iuc.messages.proto3.header_type".[0m
+[0m[[0m[31merror[0m] [0m[0mheader_type.proto:15:1: "com.kpn.dsh.iuc.messages.proto3.contract_type" seems to be defined in "contract_type.proto", which is not imported by "header_type.proto".  To use it here, please add the necessary import.[0m
+[0m[[0m[31merror[0m] [0m[0mitem_type.proto:6:1: "item_header_type" is not defined.[0m
+[0m[[0m[31merror[0m] [0m[0mitem_type.proto:7:1: "productspecification" is not defined.[0m
+[0m[[0m[31merror[0m] [0m[0mgeneric_order_type.proto: Import "header_type.proto" was not found or had errors.[0m
+[0m[[0m[31merror[0m] [0m[0mgeneric_order_type.proto: Import "item_type.proto" was not found or had errors.[0m
+[0m[[0m[31merror[0m] [0m[0mgeneric_order_type.proto:9:1: "header_type" is not defined.[0m
+[0m[[0m[31merror[0m] [0m[0mgeneric_order_type.proto:10:1: "item_type" is not defined.[0m

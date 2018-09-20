@@ -1,0 +1,18 @@
+syntax = "proto3";
+package com.kpn.dsh.iuc.messages.proto3;
+option java_package = "com.kpn.dsh.iuc.messages.proto3";
+ 
+import "submitgenericproductorderresponse.proto";
+import "partyinfo.proto";
+ 
+message  { 
+generic_order_type generic_order = 1 ;
+ nonemptystring = 2 ;
+submitgenericproductorderresponse submitgenericproductorderresponse = 3 ;
+LOTTE_WorkOrder1.0_submit_1.0_TYPE lotte_workorder1_0_submit_1_0 = 4 ;
+LOTTE_WorkOrder1.1_submit_2.3_TYPE lotte_workorder1_1_submit_2_3 = 5 ;
+LOTTE_WorkOrder1.2_submit_1.0_TYPE lotte_workorder1_2_submit_1_0 = 6 ;
+LOTTE_WorkOrder1.3_submit_1.0_TYPE lotte_workorder1_3_submit_1_0 = 7 ;
+LOTTE_WorkOrder1.4_submit_1.0_TYPE lotte_workorder1_4_submit_1_0 = 8 ;
+partyinfo partyinfo = 9 ;
+}

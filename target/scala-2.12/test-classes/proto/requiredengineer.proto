@@ -1,0 +1,8 @@
+syntax = "proto3";
+package com.kpn.dsh.iuc.messages.proto3;
+option java_package = "com.kpn.dsh.iuc.messages.proto3";
+ 
+ 
+message requiredengineer { 
+ int32 key = 1 ;
+}

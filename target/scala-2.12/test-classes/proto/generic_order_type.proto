@@ -1,0 +1,11 @@
+syntax = "proto3";
+package com.kpn.dsh.iuc.messages.proto3;
+option java_package = "com.kpn.dsh.iuc.messages.proto3";
+ 
+import "header_type.proto";
+import "item_type.proto";
+ 
+message generic_order_type { 
+ header_type order_header = 1 ;
+repeated item_type order_item = 2 ;
+}

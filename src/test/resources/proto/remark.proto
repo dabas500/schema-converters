@@ -1,0 +1,9 @@
+syntax = "proto3";
+package com.kpn.dsh.iuc.messages.proto3;
+option java_package = "com.kpn.dsh.iuc.messages.proto3";
+ 
+ 
+message remark { 
+ string type = 1 ;
+ string remark = 2 ;
+}
